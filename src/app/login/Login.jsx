@@ -15,7 +15,7 @@ export const Login = () => {
         <div className=' mt-[8rem]  h-[20rem] w-full  flex justify-center items-center'>
 
             <motion.div
-                initial={{ opacity: 0 ,y:100}}
+                initial={{ opacity: 0 ,y:60}}
                 animate={{ opacity: 1 ,y:0}}
                 transition={{ duration: 0.8}}
                 className="login w-[50%] h-full  border-gray-200 shadow-md shadow-gray-100 mt-12 rounded-md px-2">

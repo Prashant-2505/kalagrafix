@@ -31,3 +31,28 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* Hide scrollbar for Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* Hide scrollbar for WebKit (Chrome, Safari, Edge) */
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Hide scrollbar for IE and Edge */
+body {
+  -ms-overflow-style: none;
+}
+
+body::-ms-scrollbar-thumb {
+  background-color: transparent;
+}
