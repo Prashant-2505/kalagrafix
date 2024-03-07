@@ -6,7 +6,7 @@ export const Login = () => {
 
     // css
     const inputDivTextStyle = 'bg-black absolute pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-hite'
-    const inputStyle = 'border  focus:outline-gray-600 w-full p-4 m-0 text-base block bg-black border-gray-300 rounded-md'
+    const inputStyle = 'border  focus:outline-gray-600 w-full p-4 m-0 text-base block bg-black border-gray-300 rounded-md outline-none'
     const formBtnStyle = 'bg-gray-100 w-[8rem] m-auto p-4 text-black rounded-sm hover:bg-gray-200 duration-200 ease-out   hover:shadow-sm hover:shadow-gray-100'
 
 

@@ -21,11 +21,11 @@ export default function Home() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 1.4 }}
-          className=" flex justify-between items-center w-full h-[25rem] border-2 my-4 p-4 mt-8">
+          className=" flex justify-between items-center w-full h-[25rem]  my-4 p-4 mt-8">
           <motion.div
-            initial={{ opacity: 0 ,x:10}}
-            animate={{ opacity: 1 ,x:0}}
-            transition={{ duration: 0.4, delay: 1.8 }}
+            initial={{ opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.9, delay: 1.8 }}
             className=" w-[50%] h-full ">
             <Image className=' h-full w-[100%] rounded-md'
               src={laptop}
@@ -33,12 +33,18 @@ export default function Home() {
             />
           </motion.div>
           <motion.div
-           initial={{ opacity: 0 ,x:-10}}
-           animate={{ opacity: 1 ,x:0}}
-           transition={{ duration: 0.4, delay: 2 }}
-          className=" w-[50%] h-full p-2 flex justify-center items-center">
-            <p className=' font-semibold text-[1.3rem]'>
-              Are you a freelancer seeking exciting job opportunities or a business owner in need of skilled professionals? Look no further! <span className=" text-[#1c8dfa]"> KalaGrafix</span> is your go-to destination for connecting talented freelancers with exciting job tasks.
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.9, delay: 1.8 }}
+            className=" w-[50%] h-full p-2 flex flex-col justify-center  border-[2px] gap-8">
+            <p className='font-semibold text-[1.2rem] text-yellow-300 px-8'>
+              Are you a freelancer ?
+            </p>
+            <p className='  text-[2rem] capitalize font-bold px-8'>
+              seeking exciting job opportunities ? 
+            </p>
+            <p className='  px-8'>
+             Look no further! <span className=" text-[#1c8dfa] text-2xl"> KalaGrafix</span> is your go-to destination for connecting talented freelancers with exciting job tasks.
             </p>
           </motion.div>
         </motion.div>
